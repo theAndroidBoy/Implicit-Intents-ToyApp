@@ -1,5 +1,6 @@
-# Implicit-Intents-ToyApp
-Demo App for Implicit intents by using Implicit intent to invoke map App,open webpage in browser and share media/file.
+# Implicit Intents Demo
+
+## Demo App for Implicit intents by using Implicit intent to invoke map App,open webpage in browser and share media/file.
 
 As we know intent is a call for or request for an Action.
 Implict intent is the type of intent we when we don't know or care how our request will be fullfilled.
@@ -8,19 +9,19 @@ Implicit intent include an Action (eg ACTION_VIEW) and data URI.
 Action says what you are trying to do
 The data Uri is what you are passing onto the action.
 
-URI:
+## URI: 
     URI is a string of characters that identifies a resource. also URI is a refrence pointing to the actuall data/resource.
-formal form of URI:
+## formal form of URI: 
     Scheme:[//[user:password@]host[:port]] [/]path[?query][#fragment]
     anything between the brackets is optional.
-Breakdown of URI:
+## Breakdown of URI:
     so URI can be broken down into 5 parts given below.
       Scheme =  scheme describe what type of resource we are pointing to (eg mailto ,geo,https).
       authority= authority is the part where we describe user name,password and host.
       path=      path is further navigation to resource eg (/courses/ud851/lessons..)
       query=     query is used to filter the resource.
       fragment=  fragment contains data used by path of query.
-Rules for building legitmate URI:
+## Rules for building legitmate URI:
       Scheme is followed by ":" character.
       authority is preceded by //.
       depending on scheme authority is optional.
@@ -30,7 +31,7 @@ Rules for building legitmate URI:
       
 generally be build URI using UriBuilder class because its relieves us of caring about the character rules ,the class does it for us.
 URL is a subset of URI.
-Geo URI:
+## Geo URI:
       one other type of URI is geo URI.
       geo URI has scheme geo:
       geo:0,0?q=Antwarp,Belgium & Z=10  is the example of geo URI.
